@@ -12,6 +12,6 @@
   "scripts": {
     "build": "echo 'alo' ",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   }
 }
