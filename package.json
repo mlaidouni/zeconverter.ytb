@@ -8,5 +8,10 @@
     "eslint": "^9.7.0",
     "globals": "^15.8.0",
     "jest": "^29.7.0"
+  },
+  "scripts": {
+    "build": "echo 'alo' ",
+    "lint": "eslint .",
+    "test": "jest"
   }
 }
