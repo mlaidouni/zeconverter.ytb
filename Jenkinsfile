@@ -44,7 +44,7 @@ pipeline {
             mail to: 'ynwdldn03+dev@gmail.com',
                 subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
                 body: "Something is wrong with ${env.BUILD_URL}"
-        },
+        }
         // If the pipeline is successful, print a message
         success {
             echo '########## Pipeline successful! ##########'
